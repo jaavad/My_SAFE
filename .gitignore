@@ -161,3 +161,7 @@ slurm_logs
 /logs
 /artifacts
 /setup_envs.bash
+
+
+# real rollouts data
+SAFE_datasets/
