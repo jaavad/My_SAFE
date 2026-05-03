@@ -1,0 +1,4 @@
+metric,overall,succ,fail
+mahala,0.7158,0.8066,0.6389
+euclid,0.7299,0.8045,0.6667
+cosine,0.7444,0.7877,0.7076
