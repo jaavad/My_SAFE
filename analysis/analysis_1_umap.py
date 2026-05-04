@@ -64,9 +64,9 @@ def parse_args():
                    help="Timestep at which failure points start being red "
                         "(in 'boundary' or 'gradual' modes).")
     # UMAP hyperparams
-    p.add_argument("--n_neighbors", type=int, default=80,
+    p.add_argument("--n_neighbors", type=int, default=50,
                    help="UMAP n_neighbors. Smaller = more local structure (10-50 typical).")
-    p.add_argument("--min_dist", type=float, default=0.8, ##
+    p.add_argument("--min_dist", type=float, default=0.1, ##
                    help="UMAP min_dist. Smaller = tighter clusters (0.0-0.99 typical).")
     p.add_argument("--seed", type=int, default=0)
     p.add_argument("--output_dir", type=str, default=None)
