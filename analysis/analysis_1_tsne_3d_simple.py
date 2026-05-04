@@ -38,7 +38,7 @@ def parse_args():
                    help="Pre-reduce to 50 dims with PCA before t-SNE. Default OFF.")
     p.add_argument("--feat_skip", type=int, default=1,
                    help="Take every N-th timestep. Default 1 = keep ALL.")
-    p.add_argument("--fail_boundary", type=int, default=5,
+    p.add_argument("--fail_boundary", type=int, default=25,
                    help="In per_step modes: failure points with timestep < fail_boundary "
                         "are colored BLUE (treated as still-OK). Points at timestep >= "
                         "fail_boundary are colored RED. Default 5.")
